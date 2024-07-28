@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
 	"time"
 )
 

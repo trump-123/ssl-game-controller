@@ -7,9 +7,9 @@
 package api
 
 import (
-	engine "github.com/RoboCup-SSL/ssl-game-controller/internal/app/engine"
-	state "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	statemachine "github.com/RoboCup-SSL/ssl-game-controller/internal/app/statemachine"
+	engine "github.com/trump-123/ssl-game-controller/internal/app/engine"
+	state "github.com/trump-123/ssl-game-controller/internal/app/state"
+	statemachine "github.com/trump-123/ssl-game-controller/internal/app/statemachine"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"

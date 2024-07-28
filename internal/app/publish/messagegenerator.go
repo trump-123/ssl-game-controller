@@ -1,8 +1,8 @@
 package publish
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/engine"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/engine"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/types/known/durationpb"
 	"log"

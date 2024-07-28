@@ -1,6 +1,6 @@
 package statemachine
 
-import "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+import "github.com/trump-123/ssl-game-controller/internal/app/state"
 
 func (s *StateMachine) processChangeSwitchColors(newState *state.State) (changes []*Change) {
 	yellow := newState.TeamInfo(state.Team_YELLOW)

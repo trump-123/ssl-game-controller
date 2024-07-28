@@ -1,14 +1,14 @@
 package gc
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/api"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/ci"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/config"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/engine"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/publish"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/rcon"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/tracker"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/vision"
+	"github.com/trump-123/ssl-game-controller/internal/app/api"
+	"github.com/trump-123/ssl-game-controller/internal/app/ci"
+	"github.com/trump-123/ssl-game-controller/internal/app/config"
+	"github.com/trump-123/ssl-game-controller/internal/app/engine"
+	"github.com/trump-123/ssl-game-controller/internal/app/publish"
+	"github.com/trump-123/ssl-game-controller/internal/app/rcon"
+	"github.com/trump-123/ssl-game-controller/internal/app/tracker"
+	"github.com/trump-123/ssl-game-controller/internal/app/vision"
 )
 
 // GameController contains all the different connected modules of the game controller

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 readonly SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
-readonly package_suffix="github.com/RoboCup-SSL/ssl-game-controller/internal/app"
+readonly package_suffix="github.com/trump-123/ssl-game-controller/internal/app"
 
 cd "${SCRIPT_DIR}/../internal/app"
 

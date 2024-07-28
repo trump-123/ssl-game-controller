@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/statemachine"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/statemachine"
 	"github.com/go-test/deep"
 	"os"
 	"testing"

@@ -1,13 +1,13 @@
 [![CircleCI](https://circleci.com/gh/RoboCup-SSL/ssl-game-controller/tree/master.svg?style=svg)](https://circleci.com/gh/RoboCup-SSL/ssl-game-controller/tree/master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/RoboCup-SSL/ssl-game-controller?style=flat-square)](https://goreportcard.com/report/github.com/RoboCup-SSL/ssl-game-controller)
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/RoboCup-SSL/ssl-game-controller)
-[![Release](https://img.shields.io/github/release/RoboCup-SSL/ssl-game-controller.svg?style=flat-square)](https://github.com/RoboCup-SSL/ssl-game-controller/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/trump-123/ssl-game-controller?style=flat-square)](https://goreportcard.com/report/github.com/trump-123/ssl-game-controller)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/trump-123/ssl-game-controller)
+[![Release](https://img.shields.io/github/release/RoboCup-SSL/ssl-game-controller.svg?style=flat-square)](https://github.com/trump-123/ssl-game-controller/releases/latest)
 [![Coverage](https://img.shields.io/badge/coverage-report-blue.svg)](https://circleci.com/api/v1.1/project/github/RoboCup-SSL/ssl-game-controller/latest/artifacts/0/coverage?branch=master)
 
 # ssl-game-controller
 
 The game controller for matches in the RoboCup Small Size league, introduced at RoboCup 2019 as a replacement of
-the [ssl-refbox](https://github.com/RoboCup-SSL/ssl-refbox).
+the [ssl-refbox](https://github.com/trump-123/ssl-refbox).
 
 ![Screenshot of Interface](./doc/screenshot_interface.png)
 
@@ -18,7 +18,7 @@ If you are a new team, please add your team name to [internal/app/engine/config.
 ## Usage
 
 If you just want to use this app, simply download the
-latest [release binary](https://github.com/RoboCup-SSL/ssl-game-controller/releases/latest). The binary is
+latest [release binary](https://github.com/trump-123/ssl-game-controller/releases/latest). The binary is
 self-contained. No dependencies are required.
 
 You can also use pre-build docker images:
@@ -51,12 +51,12 @@ in [internal/app/engine/config.go](internal/app/engine/config.go) and create a p
 
 ### External Runtime Dependencies
 
-[ssl-vision](https://github.com/RoboCup-SSL/ssl-vision) - Receive Geometry packages for correct field dimensions.   
+[ssl-vision](https://github.com/trump-123/ssl-vision) - Receive Geometry packages for correct field dimensions.   
 If not available, make sure to configure the correct dimensions
 in [config/ssl-game-controller.yaml](config/ssl-game-controller.yaml).
 
 tracker-source implementation that produces
-[TrackerWrapperPacket](https://github.com/RoboCup-SSL/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto) -
+[TrackerWrapperPacket](https://github.com/trump-123/ssl-vision/blob/master/src/shared/proto/messages_robocup_ssl_wrapper_tracked.proto) -
 Get ball and robot positions.      
 Required for:
  * Check ball placement progress

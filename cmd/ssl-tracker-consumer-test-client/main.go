@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/tracker"
+	"github.com/trump-123/ssl-game-controller/internal/app/tracker"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 	"log"

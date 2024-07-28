@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/RoboCup-SSL/ssl-game-controller/frontend"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/config"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/gc"
+	"github.com/trump-123/ssl-game-controller/frontend"
+	"github.com/trump-123/ssl-game-controller/internal/app/config"
+	"github.com/trump-123/ssl-game-controller/internal/app/gc"
 	"log"
 	"net/http"
 	"os"

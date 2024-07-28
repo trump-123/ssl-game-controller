@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-option go_package = "github.com/RoboCup-SSL/ssl-game-controller/internal/app/engine";
+option go_package = "github.com/trump-123/ssl-game-controller/internal/app/engine";
 
 // The engine config
 message Config {

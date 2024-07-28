@@ -1,6 +1,6 @@
 package statemachine
 
-import "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+import "github.com/trump-123/ssl-game-controller/internal/app/state"
 
 // createCommandChange creates a change with a new command
 func createCommandChange(command *state.Command) *Change {

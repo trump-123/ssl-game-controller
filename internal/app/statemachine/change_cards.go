@@ -1,7 +1,7 @@
 package statemachine
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
 )
 
 func (s *StateMachine) processChangeAddYellowCard(newState *state.State, change *Change_AddYellowCard) (changes []*Change) {

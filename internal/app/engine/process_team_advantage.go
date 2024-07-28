@@ -1,6 +1,6 @@
 package engine
 
-import "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+import "github.com/trump-123/ssl-game-controller/internal/app/state"
 
 var defaultChoice = TeamAdvantageChoice_STOP
 

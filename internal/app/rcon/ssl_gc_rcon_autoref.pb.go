@@ -7,7 +7,7 @@
 package rcon
 
 import (
-	state "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+	state "github.com/trump-123/ssl-game-controller/internal/app/state"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

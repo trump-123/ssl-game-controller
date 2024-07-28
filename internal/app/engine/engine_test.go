@@ -1,9 +1,9 @@
 package engine
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/config"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/statemachine"
+	"github.com/trump-123/ssl-game-controller/internal/app/config"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/statemachine"
 	"github.com/go-test/deep"
 	"google.golang.org/protobuf/proto"
 	"os"

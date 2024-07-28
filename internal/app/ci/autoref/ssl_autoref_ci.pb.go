@@ -7,9 +7,9 @@
 package autoref
 
 import (
-	state "github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	tracker "github.com/RoboCup-SSL/ssl-game-controller/internal/app/tracker"
-	vision "github.com/RoboCup-SSL/ssl-game-controller/internal/app/vision"
+	state "github.com/trump-123/ssl-game-controller/internal/app/state"
+	tracker "github.com/trump-123/ssl-game-controller/internal/app/tracker"
+	vision "github.com/trump-123/ssl-game-controller/internal/app/vision"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -1,9 +1,9 @@
 package statemachine
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/config"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	"github.com/RoboCup-SSL/ssl-game-controller/pkg/timer"
+	"github.com/trump-123/ssl-game-controller/internal/app/config"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/pkg/timer"
 	"google.golang.org/protobuf/proto"
 	"log"
 	"math/rand"

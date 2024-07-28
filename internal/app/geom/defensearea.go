@@ -1,7 +1,7 @@
 package geom
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/config"
+	"github.com/trump-123/ssl-game-controller/internal/app/config"
 )
 
 // NewDefenseArea creates a rectangle representing a defense area, using the flag for the side

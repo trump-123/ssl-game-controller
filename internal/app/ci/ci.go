@@ -2,10 +2,10 @@ package ci
 
 import (
 	"bufio"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/engine"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/sslconn"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/tracker"
+	"github.com/trump-123/ssl-game-controller/internal/app/engine"
+	"github.com/trump-123/ssl-game-controller/internal/app/sslconn"
+	"github.com/trump-123/ssl-game-controller/internal/app/state"
+	"github.com/trump-123/ssl-game-controller/internal/app/tracker"
 	"google.golang.org/protobuf/proto"
 	"log"
 	"net"

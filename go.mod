@@ -1,4 +1,4 @@
-module github.com/RoboCup-SSL/ssl-game-controller
+module github.com/trump-123/ssl-game-controller
 
 go 1.18
 
