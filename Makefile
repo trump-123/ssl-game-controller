@@ -13,6 +13,7 @@ $(DOCKER_TARGETS): docker-%:
 	cd frontend && \
 	npm install && \
 	npm run build && \
+	cp -r translate.js /dist && \
 	touch ../.frontend
 
 frontend: .frontend
